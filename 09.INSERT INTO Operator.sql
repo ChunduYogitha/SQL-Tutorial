@@ -74,7 +74,13 @@ CustomerID	CustomerName	                ContactName	                    Address	
 93	        Greasy Burger	                Per Olsen	                      Gateveien 15	                     Sandnes	           4306	               Norway
 94	        Tasty Tee	                    Finn Egan	                      Streetroad 19B	                   Liverpool	         L1 0AA              	UK
 
+Exercise:
+Insert a new record in the Customers table.
 
+insert into
+ Customers 
+(CustomerName, Address, City, PostalCode,Country)
+values('Hekkan Burger','Gateveien 15','Sandnes','4306','Norway');
 
 
 
