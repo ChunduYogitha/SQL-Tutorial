@@ -33,4 +33,18 @@ CustomerID	CustomerName	                          ContactName	                  
 2	           Ana Trujillo Emparedados y helados	    Juan	                                Avda. de la Constitución 2222	          México D.F.	            05021        	          Mexico
 3	           Antonio Moreno Taquería	              Juan	                                Mataderos 2312	                        México D.F.	            05023	                  Mexico
 4            Around the Horn	                      Thomas Hardy	                        120 Hanover Sq.	                        London	                WA1 1DP	                 UK
-5	           Berglunds snabbköp	                    Christina Berglund	                  Berguvsvägen 8	                        Luleå	                  S-958 22	               Swe
+5	           Berglunds snabbköp	                    Christina Berglund	                  Berguvsvägen 8	                        Luleå	                  S-958 22	               Sweden
+
+Update Warning!
+Be careful when updating records. If you omit the WHERE clause, ALL records will be updated!
+
+Example
+UPDATE Customers
+SET ContactName='Juan';
+
+CustomerID	  CustomerName	                        ContactName	             Address	                                City	                      PostalCode	    Country
+1             Alfreds Futterkiste	                  Juan	                   Obere Str. 57	                          Frankfurt	                  12209	          Germany
+2	            Ana Trujillo Emparedados y helados	  Juan	                   Avda. de la Constitución 2222	           México D.F.	              05021	          Mexico
+3	            Antonio Moreno Taquería	              Juan	                   Mataderos 2312	                           México D.F.	              05023	          Mexico
+4             Around the Horn	                      Juan	                   120 Hanover Sq.	                         London	                    WA1 1DP	        UK
+5	            Berglunds snabbköp	                  Juan	                   Berguvsvägen 8	                           Luleå	                    S-958 22	      Sweden
